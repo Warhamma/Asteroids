@@ -11,3 +11,4 @@ wheels/
 
 # BootDev requested
 game_state.jsonl
+game_events.jsonl
