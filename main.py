@@ -53,6 +53,8 @@ def main():
 
 
         updatable.update(dt)
+        player.shot_timer -= dt
+
         for item in asteroids:
             if item.collides_with(player):
                 log_event("player_hit")
